@@ -1,3 +1,10 @@
+.body{
+ font-family: ariel, helvetica, sans-serif; 
+ background:rgb(240, 111, 6) ;  
+ margin: 30px;
+ padding: 10px;
+}
+
 .paragraphs {
  display: flex;
  justify-content: space-around;
@@ -41,12 +48,6 @@ border-color:#2a018a;
 }
 a:hover{
  color:rgb(26, 1, 83);
-}
-.body{
- font-family: ariel, helvetica, sans-serif; 
- background:rgb(240, 111, 6) ;  
- margin: 20px;
- padding: 20px;
 }
 
 
