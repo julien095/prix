@@ -1,0 +1,147 @@
+.paragraphs {
+ display: flex;
+ justify-content: space-around;
+ padding: 20px;
+ background-color: #c0c2ee;
+ }
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 2rem;
+ background-color:#e4c30d;
+ color: rgb(248, 249, 250);
+}
+.menu a{
+ color: aliceblue;
+text-decoration:none;
+}
+.menu ul{
+ list-style:none;
+display:flex;
+ justify-content: space-between;
+gap:20px;
+}
+.logo{
+ display: flex;
+ align-items:center;
+ gap: 2rem;
+}
+.logo-img{
+height:50px;
+width: 50px;
+border-radius:50%;
+object-fit:cover;
+border:5px; 
+border-style:solid;
+border-color:#2a018a;
+}
+.logo-text{ 
+ font-size:10px
+}
+a:hover{
+ color:rgb(26, 1, 83);
+}
+.body{
+ font-family: ariel, helvetica, sans-serif; 
+ background:rgb(240, 111, 6) ;  
+ margin: 20px;
+ padding: 20px;
+}
+
+
+.grid-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: auto auto;
+ gap: 10px;
+ background-color: #c3bdfc;
+}
+.grid-item{
+  position:relative; 
+  overflow:hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(o, o, 0, 0.5);
+}
+.grid-item img{
+   width: 250px;
+   height: 250px; 
+   object-fit: cover; 
+    
+}
+.grid-item a{
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  text-decoration: none;
+  color: #015e15;
+  text-align:center;
+  left: 0%;
+  right: 0%;
+  font-size: 18px;
+}
+.footer {
+ text-align: center;
+ background: #c9c505;
+ color: rgb(165, 202, 1);
+ padding: 15px;
+
+}
+
+aside {
+      width: 25%;
+      background-color: #1c1c1c; 
+      padding: 20px;
+    }
+
+    aside h3 {
+      color: #ffffff;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    aside ul li {
+      margin-bottom: 10px;
+    }
+
+    aside ul li a {
+      color: #4da6ff;
+      text-decoration: none;
+    }
+
+    aside ul li a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: 75%;
+      padding: 30px;
+    }
+
+    main h1 {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    main p {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .lien-dwat {
+      float: right;
+      margin-left: 10px;
+      color: #4da6ff;
+      text-decoration: none;
+    }
+
+    .lien-dwat:hover {
+      text-decoration: none;
+    }
