@@ -1,8 +1,8 @@
 .body{
  font-family: ariel, helvetica, sans-serif; 
  background:rgb(240, 111, 6) ;  
- margin: 30px;
- padding: 10px;
+ margin: 20px;
+ padding: 20px;
 }
 
 .paragraphs {
@@ -61,47 +61,50 @@ a:hover{
 .grid-item{
   position:relative; 
   overflow:hidden;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0 4px 8px rgba(o, o, 0, 0.5);
 }
 .grid-item img{
-   width: 250px;
-   height: 250px; 
-   object-fit: cover; 
+  position: relative;
+   width: 300px;
+   height: 200px; 
+   object-fit: cover;
+   margin: 10px; 
+   padding: 5px;
+    border-radius: 30px;
+   box-shadow: 0 4px 8px rgba(o, o, 0, 0.4);
     
 }
 .grid-item a{
   position: absolute;
   bottom: 0;
-  padding: 15px;
+  padding: 5px;
+  margin: 10px;
   text-decoration: none;
-  color: #015e15;
+  color: #800256;
   text-align:center;
   left: 0%;
   right: 0%;
   font-size: 18px;
 }
-.footer {
- text-align: center;
- background: #c9c505;
- color: rgb(165, 202, 1);
- padding: 15px;
-
-}
 
 aside {
+      display: flex;
+      flex-direction:column;
       width: 25%;
-      background-color: #1c1c1c; 
+      background-color: #1a011d; 
       padding: 20px;
+      border-radius: 30px;
     }
 
     aside h3 {
-      color: #ffffff;
+      color: #e4ebf8;
       font-size: 18px;
       margin-bottom: 10px;
     }
 
     aside ul {
+       
       list-style: none;
       padding: 0;
     }
@@ -111,7 +114,7 @@ aside {
     }
 
     aside ul li a {
-      color: #4da6ff;
+      color: #0874e0;
       text-decoration: none;
     }
 
@@ -125,7 +128,7 @@ aside {
     }
 
     main h1 {
-      color: #ffffff;
+      color: #f8eeee;
       font-size: 24px;
       margin-bottom: 15px;
     }
@@ -139,7 +142,7 @@ aside {
     .lien-dwat {
       float: right;
       margin-left: 10px;
-      color: #4da6ff;
+      color: #0156a0;
       text-decoration: none;
     }
 
